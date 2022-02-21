@@ -7,12 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "earning",
+				"name": "fatherMoney",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -25,7 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "familyName",
+				"name": "getFatherName",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -33,33 +28,7 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getFamilyName",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getGivenName",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -77,7 +46,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "givenName",
+				"name": "getMotherName",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -85,12 +54,25 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "money",
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "motherMoney",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -99,13 +81,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "work",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -122,7 +97,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lecture/lec11.sol": "Son"
+			"lecture/lec12.sol": "Son"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -136,12 +111,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lecture/lec11.sol": {
-			"keccak256": "0xfc92cf6db538b4d8eef1e78e6063af9eb0738e7f79bfea0cef046fa7aa092314",
+		"lecture/lec12.sol": {
+			"keccak256": "0xca05375401e323780663aa8d33e6610544ce1c6e3510e30c052a245d70ef31d7",
 			"license": "GPL-30",
 			"urls": [
-				"bzz-raw://83311a7929ff81399cacb0a151ad8e57e42a3e1115597e68f6cf3fe68a4fe486",
-				"dweb:/ipfs/QmXeQuTNCEiw7pa2yGFkjLqgXBxuDUBMVJaynfUTy5HEYb"
+				"bzz-raw://f67587ffebbe60d073740c45b041c7ac9ed199b0fe7c8c44cf1ebe7464466d59",
+				"dweb:/ipfs/QmSHTFXPSXuX4X6bVRLb1zsBz1B4saht1GELg5zeKrr8ev"
 			]
 		}
 	},

@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "fatherMoney",
+				"name": "getMoney",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -20,7 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getFatherName",
+				"name": "getMotherName",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -33,7 +33,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getMoney",
+				"name": "motherMoney",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -58,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lecture/lec12.sol": "Father"
+			"lecture/lec12.sol": "Mother"
 		},
 		"evmVersion": "london",
 		"libraries": {},
