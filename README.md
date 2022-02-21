@@ -1,2 +1,2 @@
 # Solidity
-블록체인 스터디
+- ethereum solidity 문법을 실습하여 기록합니다.
