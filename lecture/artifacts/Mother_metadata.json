@@ -6,42 +6,23 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getMoney",
-				"outputs": [
+				"anonymous": false,
+				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getMotherName",
-				"outputs": [
-					{
+						"indexed": false,
 						"internalType": "string",
-						"name": "",
+						"name": "name",
 						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
+				"name": "MotherName",
+				"type": "event"
 			},
 			{
 				"inputs": [],
-				"name": "motherMoney",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "who",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -58,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lecture/lec12.sol": "Mother"
+			"lecture/lec16.sol": "Mother"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -72,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lecture/lec12.sol": {
-			"keccak256": "0xca05375401e323780663aa8d33e6610544ce1c6e3510e30c052a245d70ef31d7",
+		"lecture/lec16.sol": {
+			"keccak256": "0x774139443936672043a3f3d450cdaea564ef0ab752c320cc843d3cb633bb3768",
 			"license": "GPL-30",
 			"urls": [
-				"bzz-raw://f67587ffebbe60d073740c45b041c7ac9ed199b0fe7c8c44cf1ebe7464466d59",
-				"dweb:/ipfs/QmSHTFXPSXuX4X6bVRLb1zsBz1B4saht1GELg5zeKrr8ev"
+				"bzz-raw://3b92df4a2313f3aaec5c7b90602dc4cdcfb3628e8bad8df26cfafe3e004f960e",
+				"dweb:/ipfs/QmQSvkZm3hp88Rru7CserBCWSVfJ6ZZMQHJatBaFEDXtqz"
 			]
 		}
 	},
